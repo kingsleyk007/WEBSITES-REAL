@@ -1,0 +1,196 @@
+<html>
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body{
+        background-color: aliceblue;
+    }
+    .heading{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .heading h1{
+        font-size: 50px;
+        color: #000;
+        margin-bottom: 25px;
+        position: relative;
+    }
+    .heading h1::after{
+        content:"";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        display: block;
+        margin: 0 auto;
+        background-color: #4caf50;
+    }
+    .heading p{
+        font-size: 18px;
+        color: #000000;
+        margin-bottom: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+    .profile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .profile-image{
+        flex: 1;
+        margin-right: 40px;
+        overflow: hidden;
+    }
+    .profile-image img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        transition: 0.5s ease;
+    }
+    .profile-image:hover img{
+        transform: scale(1.2);
+    }
+    .about-content{
+        flex: 1;
+    }
+    .about-content h2{
+        font-size: 23px;
+        margin-bottom: 15px;
+        color: #000000;
+        font-family: sans-serif;
+    }
+    @media screen and (max-width: 768px){
+        .heading{
+            padding: opx 20px;
+        }
+        .heading h1{
+            font-size: 36px;
+        }
+        .heading p{
+            font-size: 17px;
+            margin-bottom: 0px;
+        }
+        .container{
+            padding: 0px;
+        }
+        .profile{
+            padding: 20px;
+            flex-direction: column;
+        }
+        .profile-image{
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
+        .about-content p{
+            color: #000000;
+            padding: 0px;
+            font-size: 18px;
+        }
+        .about-content li{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+            color: #000;
+        }
+        .ourvision p{
+            font-size: 18px;
+            color: #030303;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        .ourvision li{
+            font-size: 18px;
+            color: #000000;
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+        .about-content2 p{
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #000;
+            
+        }
+        
+        }
+    
+        
+    </style>
+    <title>Home</title>
+<body>
+    <div class="heading">
+        <h1>HOMEPAGE</h1>
+        <p>Welcome to CST Innovative Speed Tech At CST Innovative Speed Tech, we combine innovation, speed, and technology to deliver intelligent solutions that drive progress. From data-driven applications to cutting-edge automation, our mission is to transform ideas into impactful digital solutions tailored to meet the evolving needs of industries and businesses.
+            </p>
+    </div>
+    <div class="container">
+        <section class="profile">
+            <div class="profile-image">
+                <img src="HOMEPAGE.jpeg">
+            </div>
+            <div class="about-content">
+                <h2>	
+                    <p>
+                        WHAT WE DO:	</h2>
+                        <UL><li>Custom Software Development</li>	
+                        <li>Data Analytics & AI Solutions</li>
+                        <li>Embedded Systems & IoT</li>	
+                        <li>Enterprise Automation</li>	
+                        <li>IT Consultancy & Training</li>	
+                        <li>Digital Marketing</li> 
+                        <li>	Video Editing</li></UL></p> 
+                    
+            </div>
+            <div class="about-content2">
+                <h3>
+                    <p> WHY CHOOSE US:</h3>
+                    <P>Passion for Innovation,
+                        Rapid Prototyping and Deployment,
+                        Experienced and Certified Team,
+                        Scalable and Future-Ready Solutions and
+                        Dedicated Support and Maintenance.
+                        </P></p>
+            </div>
+            <div class="ourvision">
+                <p>
+                    <h3>Our Vision</h3>
+                    <p>To be a leading force in technological innovation across Africa and beyond.</p>
+                    <h3>Our Mission</h3>
+                    <p>To provide smart, high-speed, and innovative tech solutions that solve real-world problems and drive digital transformation.</p>
+                    <h3> Our Core Values</h3>
+                    <p><ul>
+                        <li>Innovation: We embrace creativity and cutting-edge thinking.</li>
+                        <li>Speed: We deliver timely, without compromising quality.</li>
+                        <li>Integrity: We do what's right always to maintain customers certification.</li>
+                        <li>Excellence: We strive for the highest standards in all we do always.</li>
+                        <li>Customer Satisfaction: Your success is our priority.</li>
+                    </ul></p>
+                    <h3>Services</h3>
+                    <ul>
+                    <li>Software Development Custom-built web, mobile, and desktop applications for businesses and institutions.</li>
+                        <li>Data Science & AI Unlock the power of data with machine learning, analytics, and intelligent automation.</li>
+                            <li>IoT & Embedded Systems Hardware-software integration for smart devices and industrial control systems.</li>
+                                <li>IT Consulting & Training Upskill your team with expert training or let us guide your digital transformation strategy.</li>
+                                    <li>Automation Solutions Improve operational efficiency with tailored automation for workflows and processes.</li>
+                                    <li>Robotic.</li>
+                                    <li>Digital Marketing and lot more.</li>
+                    <h3>Careers</h3>
+                    <p>Join Our Team We're always looking for passionate innovators and tech enthusiasts. Whether you're a developer, analyst, or engineer, CST Innovative Speed Tech is the place to grow and make an impact.</p>
+                </p>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
